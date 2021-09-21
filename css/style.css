@@ -1,4 +1,6 @@
 body{
+    padding: 0;
+    margin: 0;
     background-repeat: no-repeat; /* Resmi tekrarlama */
     background-size: cover; /* resmi ekranı kaplayacak hale getir. */
     background-image: url("../assets/Mask\ Group\ 1.png");
@@ -13,6 +15,8 @@ ul li a {
     margin-right: 40px;
     text-decoration: none;
     color: black;
+    font-size: 20px;
+
 }
 ul li a:hover {
     color: white;
@@ -49,6 +53,7 @@ p{
   }
   .showprojec{
       cursor: pointer;
+      font-size: 50px;
   }
   .navbutton{
       border:none;
@@ -59,4 +64,8 @@ p{
       border-radius: 5px;
       cursor: pointer;
   }
+  .main .menu h1{
+      font-size: 100px;
+  }
+
   
